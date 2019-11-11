@@ -385,3 +385,7 @@ footer.footer .social-link {
   font-size: 1rem;
 }
 }
+
+#portfolio > .caption {
+  display: none;
+}
