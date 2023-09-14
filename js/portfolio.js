@@ -1,6 +1,8 @@
 (function($) {
-  "use strict"; // Start of use strict
-
+  "use strict"; //tart of use strict
+  
+  const d = new Date();
+  
   // Closes the sidebar menu
   $(".menu-toggle").click(function(e) {
     e.preventDefault();
