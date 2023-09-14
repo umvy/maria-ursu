@@ -2,6 +2,8 @@
   "use strict"; //tart of use strict
   
   const d = new Date();
+  let year = d.getFullYear();
+  document.getElementById("year").innerHTML = year;
   
   // Closes the sidebar menu
   $(".menu-toggle").click(function(e) {
